@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
   font-size:16px;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 :focus{
@@ -86,10 +86,23 @@ body {
   transition: .2s all;
   border-radius: 2px;
   margin-left:10px;
+  width:50%;
 }
 
 .App .delete:hover{
   background-color:#edb3b3;
+}
+
+@media(max-width: 992px){
+  .App .content-todos{
+    width:55%;
+  }
+  .App .wrapper-button{
+    width:45%;
+  }
+  .App .delete{
+    margin-left:5px;
+  }
 }
 
 
