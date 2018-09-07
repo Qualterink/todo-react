@@ -87,6 +87,7 @@ body {
   border-radius: 2px;
   margin-left:10px;
   width:50%;
+  height:30px;
 }
 
 .App .delete:hover{
@@ -102,6 +103,18 @@ body {
   }
   .App .delete{
     margin-left:5px;
+  }
+}
+
+@media(max-width: 500px){
+  .App .content-todos{
+    width:45%;
+  }
+  .App .wrapper-button{
+    width:55%;
+  }
+  .App .delete{
+    margin-left:3px;
   }
 }
 
